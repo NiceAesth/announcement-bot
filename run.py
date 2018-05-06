@@ -1,3 +1,4 @@
+import gevent.monkey; gevent.monkey.patch_all()
 import requests, discord, os
 from time import sleep
 from bottle import run, post, request, route
